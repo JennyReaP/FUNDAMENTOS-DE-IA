@@ -1,7 +1,7 @@
 import joblib
 
 # Datos fijos para prueba
-features = [[5.1, 3.5, 1.4, 0.2]]
+features = [[1, 45, 58, 11, 22, 0]]
 # Cargar el modelo
 modelo = joblib.load("modelo.pkl")
 # Hacer la predicción
